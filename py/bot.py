@@ -41,8 +41,8 @@ class Compan():
         self.messHist.append(completion.choices[0].message.content)
         return completion.choices[0].message.content
 
-
-newPet = Compan("Apnc", "Doggo", "A dog that can communicate in human languages. Also a very helpful companion. Do not say you are an AI language model.","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")
+key = "Open AI key here"
+newPet = Compan("Apnc", "Doggo", "A dog that can communicate in human languages. Also a very helpful companion. Do not say you are an AI language model.",key)
 round = 0
 while True:
     round += 1
